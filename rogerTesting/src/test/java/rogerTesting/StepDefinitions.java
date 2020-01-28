@@ -33,7 +33,7 @@ public class StepDefinitions {
     @Then("replication is complete")
     public void replication_is_complete() {
         expectedAnswer = "Nope";
-        System.out.println(expectedAnswer);
+        //System.out.println(expectedAnswer);
         assertEquals(expectedAnswer, actualAnswer);
     }
 

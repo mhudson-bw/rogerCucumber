@@ -1,0 +1,65 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-01-27T19:46:47.763Z",
+        "line": 5,
+        "name": "cucumber testing automation-Replication PreCheck",
+        "description": "",
+        "id": "cucumber-testing-automation-replication-precheck;cucumber-testing-automation-replication-precheck",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 570000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "workspace is prepped",
+            "match": {
+              "location": "rogerTesting.StepDefinitions.workspace_is_prepped()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 110000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Master and Slave are on same number",
+            "match": {
+              "location": "rogerTesting.StepDefinitions.master_and_Slave_are_on_same_number()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1475000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "replication is complete",
+            "match": {
+              "location": "rogerTesting.StepDefinitions.replication_is_complete()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TEST_AE-108"
+          }
+        ]
+      }
+    ],
+    "name": "cucumber testing automation-Replication PreCheck",
+    "description": "",
+    "id": "cucumber-testing-automation-replication-precheck",
+    "keyword": "Feature",
+    "uri": "classpath:rogerTesting/1_AE-108.feature",
+    "tags": []
+  }
+]
